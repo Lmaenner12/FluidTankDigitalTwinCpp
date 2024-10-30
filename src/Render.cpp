@@ -40,7 +40,7 @@ void render()
 
     //controller.simpleRegulation();
 
-    picont.controlPumpForTank4(tank_4, pump_3);
+    //picont.controlPumpForTank4(tank_4, pump_3);
 
     sensor_1.getCurrentValue();
     sensor_2.getCurrentValue();
