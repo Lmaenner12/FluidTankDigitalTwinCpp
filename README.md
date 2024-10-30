@@ -15,7 +15,7 @@ The Tanks are connected via pumps and sensors are measuring the height of the fl
 - Qt
 - C++20 or higher
 - Microsoft Visual Studio 2022
-- 
+  
 ## Controlls:
 As of right now, the tanks have fixed initial values. You can press start or stop the pumps and a button to refill tank 1 or 2. The plots show the fluidlevel measured by the sensor of the respektive tanks.
 
