@@ -29,7 +29,7 @@ set(JSON_LIB      json)
 add_subdirectory(external)
 
 set(ADAS_LIB      lib)
-set(EXE_NAME      AdasGui)
+set(EXE_NAME      DigitalTwin)
 add_subdirectory(src)
 
 add_executable(${EXE_NAME}
