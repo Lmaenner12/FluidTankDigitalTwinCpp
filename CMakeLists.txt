@@ -28,7 +28,7 @@ set(IMPLOT_LIB    implot)
 set(JSON_LIB      json)
 add_subdirectory(external)
 
-set(ADAS_LIB      lib)
+set(DIGITAL_TWIN_LIB      lib)
 set(EXE_NAME      DigitalTwin)
 add_subdirectory(src)
 
@@ -41,4 +41,4 @@ target_link_libraries(${EXE_NAME} PUBLIC
     ${IMPL_LIB}
     ${IMGUI_LIB}
     ${IMPLOT_LIB}
-    ${ADAS_LIB})
+    ${DIGITAL_TWIN_LIB})
